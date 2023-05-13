@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 720px) {
+    footer,body,header,main,.img-footer,.formularios,.contents-footer,p,article{
+        width: 100%;
+    }
+}
+
+a{
+    color:white
+}
+
+p{
+    font-size: 21px;
+}
+
+body{
+    background-color: #ffd91b;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+
+}
+
+.formularios{
+    margin-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    box-shadow: 1px 10px 10px 10px rgb(170, 159, 62);
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #f8fc19  ;/*fbd205  rgb(251, 255, 0)*/
+  
+}
+
+.hacer-margin{
+    margin-top: 35px;
+}
+
+.buho-espacio{
+    margin-top: 4px;
+}
+
+.anuncio-evento{
+    border-radius: 10px;
+}
+
+.boton-grande{
+    margin-top: 24px;
+    padding: 13px;
+    font-size: 20px;
+}
+.boton-enviar{
+    margin-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+header{
+    background-color: #f04595    ;
+}
+
+.div-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body.darkmode{
+    background-color:#31293f ;
+    color:rgb(235, 226, 226);
+}
+
+.darkmode footer{
+    background-color: #2b2830;
+}
+
+.darkmode .cambiar-modo-filtro{
+    filter:invert(100%)
+}
+
+.darkmode .formularios{
+    box-shadow: 1px 10px 10px 10px #4b415e;
+}

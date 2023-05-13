@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Quicksand&family=Trispace:wght@700&family=Zilla+Slab:wght@600&display=swap');
+  </style>
+  <link rel="stylesheet" href="estilos.css">
+
+  <title>Buho e-learning</title>
+  <link rel="icon" href="buho.png" type="image/icon type">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar  text-center container-fluid" style="background-color:#f04595">
+      <div class="navbar-header">
+        <a href="index.html"><img class="buho-espacio" src="buho.png" width="40"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="https://es-la.facebook.com/"><img src="imagenes-redes/facebook.png" width="20"></a></li>
+        <li><a href="https://twitter.com/"><img src="imagenes-redes/twitter.png" width="20"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="imagenes-redes/instagram.png" width="20"></a></li>
+      </ul>
+      <div class="text-right ">
+        <button name="redirect" class="button btn btn-info navbar-btn" onClick="redirectToRegister()">Registrarme
+          para el eveto</button>
+        <button class="btn btn-info navbar-btn" id="boton-dark">◒</button>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="container text-center">
+    <h1 class="text-center"> EVENTO - EL METAVERSO</h1>
+    <p>El metaverso es un evento organizado por Virbela donde se debatira con los fundadores de Virbela, Second Life,
+      High Fidelity y
+      otros líderes de pensamiento en XR sobre qué papel jugarán los mundos virtuales y el Metaverso en el futuro del
+      trabajo.
+      Dicho evento se realizara el Jueves 13 de mayo, 12:00 p. m. PT (3:00 p. m. ET) en el campus abierto de Virbela.
+      Inscribite a continuacion para poder acceder a este grandioso acontecimiento.
+    </p>
+
+    <section class="formularios border container">
+      <form class="form-horizontal" action="mailto:jesusnicolas.rios@unahur.edu.ar" method="post">
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="nombre" placeholder="Pepita" name="nombre" required
+              pattern="[A-Za-z]+">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="apellido">Apellido:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="apellido" placeholder="Milazzo" name="apellido" required
+              pattern="[A-Za-z]+">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-8">
+            <input type="email" class="form-control" id="email" placeholder="fran@example.com" name="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="phone">Telefono:</label>
+          <div class="col-sm-8">
+            <input type="tel" class="form-control" id="phone" placeholder="11-2222-3333"
+              pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required name="phone">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-3 ">
+            <button type="submit" class="boton-enviar btn btn-info">Enviar</button>
+          </div>
+        </div>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container mx-auto contents-footer hacer-margin">
+      <a href="index.html">
+        <img class="img-responsive center-block hacer-margin " src="buho.png" alt="Logo pagina" width="90">
+      </a>
+    </div>
+
+    <div class="container hacer-margin">
+      <div class="row contents-footer">
+        <div class="col-sm-12 col-md-6 col-lg-11 text-center">
+          <iframe class="img-rounded img-footer cambiar-modo-filtro"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.427414147751!2d-58.64022692531503!3d-34.618637758284486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d055e548bf%3A0x738f85ea67aeabe5!2sUNaHur.%20Universidad%20Nacional%20de%20Hurlingham!5e0!3m2!1ses!2sar!4v1683839712573!5m2!1ses!2sar"
+            width="100%" height="180px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-1 text-center">
+          <div class="row">
+            <a class="row" href="https://es-la.facebook.com/"><img class="cambiar-modo-filtro"
+                src="imagenes-redes/facebook.png" width="20"></a>
+            <a class="row" href="https://twitter.com/"><img class="cambiar-modo-filtro" src="imagenes-redes/twitter.png"
+                width="20"></a>
+            <a class="row" href="https://www.instagram.com/"><img class="cambiar-modo-filtro"
+                src="imagenes-redes/instagram.png" width="20"></a>
+            <a class="row" href="mailto:buho-e-learning@gmail.com"><img class="cambiar-modo-filtro"
+                src="imagenes-redes/email (1).png" width="20"></a>
+          </div>
+        </div>
+      </div>
+      <script src="funciones.js"></script>
+  </footer>
+
+</body>
